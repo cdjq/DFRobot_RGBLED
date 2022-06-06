@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map For DFRobot_RGBLED
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_RGBLED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+InitPins	KEYWORD2
+colorRGB	KEYWORD2
+colorHSV	KEYWORD2
