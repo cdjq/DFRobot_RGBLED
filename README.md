@@ -35,9 +35,9 @@ To use this library, first download the library file, paste it into the \Arduino
   /*!
    * @fn DFRobot_RGBLED
    * @brief Constructor 
-   * @param redPin  控制RGB通道中红色灯的引脚
-   * @param greenPin  控制RGB通道中蓝色灯的引脚
-   * @param bluePin  控制RGB通道中绿色灯的引脚
+   * @param redPin  the pin for controlling the red light of RGB channel
+   * @param greenPin  the pin for controlling the green light of RGB channel
+   * @param bluePin  the pin for controlling the blue light of RGB channel
    */
   DFRobot_RGBLED(uint8_t  redPin, uint8_t  greenPin, uint8_t  bluePin);
 
@@ -49,25 +49,25 @@ To use this library, first download the library file, paste it into the \Arduino
 
   /*!
    * @fn InitPins
-   * @brief 初始化引脚,并将所有的RGB三个通道的亮度调到最大 
+   * @brief Initialize the pin, and set the brightness of the three lights of RGB channel to maximum 
    */
   void InitPins();
   
   /*!
    * @fn colorRGB
-   * @brief 以RGB的色彩格式来控制灯珠的颜色
-   * @param red RGB通道中红色灯的亮度
-   * @param green RGB通道中蓝色灯的亮度
-   * @param blue RGB通道中绿色灯的亮度
+   * @brief Control the light color in RGB color format
+   * @param red the brightness of the red light of RGB channel
+   * @param green the brightness of the green light of RGB channel
+   * @param blue the brightness of the blue light of RGB channel
    */
   void colorRGB(int red, int green, int blue);
 
   /*!
    * @fn colorHSV
-   * @brief 以HSV的色彩格式来控制灯珠的颜色
-   * @param hue 色调（H）
-   * @param Value 明度（V）
-   * @param Saturation 饱和度（S）
+   * @brief Control the light color in HSV color format
+   * @param hue hue (H)
+   * @param Value value (V)
+   * @param Saturation saturation (S)
    */
   void colorHSV(int hue, int Value, int Saturation);
 ```
