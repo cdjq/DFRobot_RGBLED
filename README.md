@@ -1,9 +1,7 @@
 # DFRobot_RGBLED
 - [中文版](./README_CN.md)
 
-This small size breakout is programmable full-color RGB LED for hobbyists, industrial designers, prototypers, and experimenters. It is designed to <br>
-allow the easy addition of dynamic indicators, displays, and lighting to existing or new projects. Controlled by PWM channels can be available <br>
-in soft red, orange, yellow, green, blue and white...<br>
+This small size breakout is programmable full-color RGB LED for hobbyists, industrial designers, prototypers, and experimenters. It is designed to allow the easy addition of dynamic indicators, displays, and lighting to existing or new projects. Controlled by PWM channels can be available in soft red, orange, yellow, green, blue and white...<br>
 The high quality LED has wide viewing angle and optimized light coupling by inter reflector. 
 
 ![Product Image](./resources/images/DFR0238.jpg)
