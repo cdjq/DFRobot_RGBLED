@@ -1,12 +1,10 @@
 # DFRobot_RGBLED
 - [中文版](./README_CN.md)
 
-This small size breakout is programmable full-color RGB LED for hobbyists,<br>
-industrial designers, prototypers, and experimenters. It is designed to <br>
-allow the easy addition of dynamic indicators, displays, and lighting <br>
-to existing or new projects. Controlled by PWM channels can be available <br>
-in soft red, orange, yellow, green, blue and white...The high quality LED <br>
-has wide viewing angle and optimized light coupling by inter reflector. <br>
+This small size breakout is programmable full-color RGB LED for hobbyists, industrial designers, prototypers, and experimenters. It is designed to <br>
+allow the easy addition of dynamic indicators, displays, and lighting to existing or new projects. Controlled by PWM channels can be available <br>
+in soft red, orange, yellow, green, blue and white...<br>
+The high quality LED has wide viewing angle and optimized light coupling by inter reflector. 
 
 ![Product Image](./resources/images/DFR0238.jpg)
 
@@ -35,9 +33,9 @@ To use this library, first download the library file, paste it into the \Arduino
   /*!
    * @fn DFRobot_RGBLED
    * @brief Constructor 
-   * @param redPin  the pin for controlling the red light of RGB channel
-   * @param greenPin  the pin for controlling the green light of RGB channel
-   * @param bluePin  the pin for controlling the blue light of RGB channel
+   * @param redPin  the pin for controlling the red channel of RGB 
+   * @param greenPin  the pin for controlling the green channel of RGB 
+   * @param bluePin  the pin for controlling the blue channel of RGB 
    */
   DFRobot_RGBLED(uint8_t  redPin, uint8_t  greenPin, uint8_t  bluePin);
 
@@ -49,16 +47,16 @@ To use this library, first download the library file, paste it into the \Arduino
 
   /*!
    * @fn InitPins
-   * @brief Initialize the pin, and set the brightness of the three lights of RGB channel to maximum 
+   * @brief Initialize the pin, and set the brightness of the three channel of RGB to maximum 
    */
   void InitPins();
   
   /*!
    * @fn colorRGB
    * @brief Control the light color in RGB color format
-   * @param red the brightness of the red light of RGB channel
-   * @param green the brightness of the green light of RGB channel
-   * @param blue the brightness of the blue light of RGB channel
+   * @param red the brightness of the red channel of RGB 
+   * @param green the brightness of the green channel of RGB 
+   * @param blue the brightness of the blue channel of RGB 
    */
   void colorRGB(int red, int green, int blue);
 
