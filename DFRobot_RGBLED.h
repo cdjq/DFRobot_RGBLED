@@ -27,9 +27,9 @@ public:
   /*!
    * @fn DFRobot_RGBLED
    * @brief Constructor 
-   * @param redPin  the pin for controlling the red light of RGB channel
-   * @param greenPin  the pin for controlling the green light of RGB channel
-   * @param bluePin  the pin for controlling the blue light of RGB channel
+   * @param redPin  the pin for controlling the red channel of RGB 
+   * @param greenPin  the pin for controlling the green channel of RGB
+   * @param bluePin  the pin for controlling the blue channel of RGB
    */
   DFRobot_RGBLED(uint8_t  redPin, uint8_t  greenPin, uint8_t  bluePin);
 
@@ -41,16 +41,16 @@ public:
 
   /*!
    * @fn InitPins
-   * @brief Initialize the pin, and set the brightness of the three lights of RGB channel to maximum 
+   * @brief Initialize the pin, and set the brightness of the three channels of RGB to maximum 
    */
   void InitPins();
   
   /*!
    * @fn colorRGB
-   * @brief control the light color in RGB color format
-   * @param red the brightness of the red light of RGB channel
-   * @param green the brightness of the green light of RGB channel
-   * @param blue the brightness of the blue light of RGB channel
+   * @brief Control the light color in RGB color format
+   * @param red    the brightness of the red channel of RGB
+   * @param green  the brightness of the green channel of RGB 
+   * @param blue   the brightness of the blue channel of RGB 
    */
   void colorRGB(int red, int green, int blue);
 
